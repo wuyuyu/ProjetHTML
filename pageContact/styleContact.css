@@ -14,7 +14,7 @@ body {
 /* --------- BODY PAGE CONTACT --------- */
 
 .aPropos {
-    width: 45vw;
+    width: 55vw;
     height: 25vh;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@ body {
 }
 
 .contact {
-    width: 45vw;
-    height: 60vh;
+    width: 55vw;
+    height: 500px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -44,6 +44,22 @@ body {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     text-align: center;
     background-color: pink;
+}
+
+.carte{
+    width: 440px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
 }
 
 #form{
@@ -60,6 +76,73 @@ body {
     white-space: pre-line;
     font-size: 18px;
 }
+
+.photo{
+    width: 155px;
+    height:155px;
+}
+
+.aProposPartie1{
+    width: 155px;
+    height: 155px;
+    position: relative;
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.aProposPartie1{
+    
+    position: relative;
+    display: inline-flex;
+    justify-content: right;
+    align-items: right;
+}
+
+@media only screen and (min-width: 351px) and (max-width: 800px) {
+    .contact{
+        width: 440px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -7vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+        text-align: center;
+        background-color: grey;
+    }
+
+    .monFormulaire{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    white-space: pre-line;
+    font-size: 12px;
+    }
+
+
+}
+@media only screen and (max-width: 350px) {
+    .contact{
+        width: 300px;
+        background-color: blue;
+        flex-wrap: wrap;
+        font-size: 10px;
+        
+    }
+    .classe2{
+        display: none;
+    }
+}
+
+
 /* --------- BURGER MENU --------- */
 
 /* --------- HOME --------- */
