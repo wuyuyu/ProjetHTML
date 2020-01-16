@@ -80,9 +80,9 @@ body {
 
 .aPropos {
     width: 55vw;
-    height: 25vh;
+    height: 280px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     top: -7vh;
     margin-left: auto;
@@ -152,7 +152,6 @@ body {
     height: 155px;
     position: relative;
     display: inline-flex;
-    justify-content: left;
     align-items: left;
 }
 
@@ -259,11 +258,12 @@ header img{
 }
 
 .resume{
-    font-size: 8px;
+    font-size: 18px;
     display: inline-block;
     position: relative;
-    width: 45%;
+    width: 60%;
     text-align: justify;
+    color: pink;
 }
 .boutonArticle{
     display: inline-block;
