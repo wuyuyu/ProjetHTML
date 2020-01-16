@@ -93,6 +93,7 @@ header img {
 .bandeauRecette {
     display: inline-flex;
     width: 100%;
+    margin-top: 2vh;
 }
 
 .vignetteRecette {
@@ -127,7 +128,7 @@ header img {
     height: 15%;
 }
 
-.partieTitre p{
+.partieTitre h1{
     color: #e57373;
     font-weight: bold;
     font-size: 18px;
@@ -157,6 +158,7 @@ header img {
     height: 3vh;
     background-color: #eceff1;
     font-size: 10px;
+    font-weight: bold;
     border-radius: 2px;
     line-height: 3vh;
     width: 10vw;
@@ -172,10 +174,14 @@ header img {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
 
     .header{
         margin-bottom: 0;
+    }
+
+    header img {
+        height: 22vh;
     }
 
     .bandeauRecette {
@@ -183,6 +189,7 @@ header img {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -26vh;
     }
 
     .vignetteRecette {
@@ -190,7 +197,13 @@ header img {
         margin-right: auto;
     }
 
-    .partieTitre p{
+    vignetteRecette {
+        margin-left: auto;
+        margin-right: auto;
+        height: 15vh!important;
+    }
+
+    .partieTitre h1{
         font-size: 9px;
     }
 
@@ -200,7 +213,9 @@ header img {
     }
 
     .boutonArticle {
-        width: 13vw;
+        width: 15vw;
+        font-size: 8px;
+        line-height: 19px;
+        font-weight: normal;
     }
 }
-
