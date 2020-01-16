@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+
     background-color: #ebebeb;
     font-family: Roboto, sans-serif;
 }
@@ -36,7 +37,7 @@ body {
 }
 
 .navigation {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 30px;
@@ -159,7 +160,7 @@ header img {
     border-radius: 2px;
     line-height: 3vh;
     width: 10vw;
-    
+
     margin-left: auto;
     margin-right: auto;
 }

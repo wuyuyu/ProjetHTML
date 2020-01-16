@@ -71,7 +71,7 @@ header img{
     margin-left: -25px;
     margin-right: auto;
     margin-bottom: 5vh;
-    background-image: url(../../images/tarte.jpg);
+    background-image: url(../images/tarte.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 3px;
@@ -88,7 +88,7 @@ header img{
     margin-left: -25px;
     margin-right: auto;
     margin-bottom: 5vh;
-    background-image: url(../../images/granola.jpg);
+    background-image: url(../images/granola.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 3px;
@@ -105,7 +105,7 @@ header img{
     margin-left: -25px;
     margin-right: auto;
     margin-bottom: 5vh;
-    background-image: url(../../images/pancakes.jpg);
+    background-image: url(../images/pancakes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 3px;
@@ -174,7 +174,7 @@ header img{
     margin-right: auto;
     margin-bottom: 5vh;
     z-index: 15;
-    background-image:url(../../images/tablego.jpg); 
+    background-image:url(../images/tablego.jpg);
     background-repeat:no-repeat;
     background-size: cover;
      border-radius: 20px 20px 50px 50px;
