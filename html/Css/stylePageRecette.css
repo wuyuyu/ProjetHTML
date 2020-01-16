@@ -1,0 +1,181 @@
+
+body {
+    margin: 0;
+    height: 800px;
+    background-color: #ebebeb;
+    font-family: "Noto Sans", sans-serif;
+}
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+    font-family: 'Noto Sans', sans-serif;
+    url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+}
+/* --------- PAGE RECETTE TARTE --------- */
+
+header {
+    width: 100%;
+    height: 50vh;
+}
+
+header img{
+    height: 57vh;
+    width: 100%;
+}
+.titreVignette {
+    color: #e57373;
+    height: 90vw;
+}
+.vinetteInfo li {
+    color: #ccffcc;
+    list-style: none;
+    margin-left: -150px;
+    margin-right: 0px;
+}
+.Info{
+    width: 88vw;
+    height: 5vh;
+    position: relative;
+    top: 0vh;
+    margin-left: -25px;
+    margin-right: 0;
+    margin-bottom: 5vh;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    z-index: 15;
+    }
+
+.recette {
+ width: 95vw;
+    height: 100vh;
+    position: relative;
+    top: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    z-index: 10;
+    overflow: hidden;
+    background-color: #e6ffe6;
+}
+.etiquetteTitre{
+       width: 50vw;
+    height: 65vh;
+    position: relative;
+    top: 0vh;
+    margin-left: -25px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-image: url(../../images/tarte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    z-index: 15;
+
+}
+.etiquetteGranola{
+       width: 50vw;
+    height: 65vh;
+    position: relative;
+    top: 0vh;
+    margin-left: -25px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-image: url(../../images/granola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    z-index: 15;
+
+}
+.etiquettepancakes{
+       width: 50vw;
+    height: 65vh;
+    position: relative;
+    top: 0vh;
+    margin-left: -25px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-image: url(../../images/pancakes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    z-index: 15;
+
+}
+.scrolltest {
+    overflow: scroll ;
+}
+
+.etiquetteCommentaire{
+    color: rgba(0,0,0,1);
+    width: 26vw;
+    height: 60vh;
+    position: relative;
+    top: -90vh;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    z-index: 15;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px 20px 50px 50px;
+}
+.etiquetteCommentaire3{
+        color: rgba(0,0,0,1);
+    width: 30vw;
+    height: 65vh;
+    position: relative;
+    top: 0vh;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    z-index: 15;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px 20px 50px 50px;
+}
+.flex-container-etiquette {
+  display: flex;
+}
+.flex-container-etiquette-colum {
+  display: flex;
+  flex-direction: column;
+}
+.etiquetteCommentaire2{
+    color: rgba(0,0,0,1);
+    width: 88vw;
+    height: 70vh;
+    position: relative;
+    top: 0vh;
+    margin-left: -25px;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    z-index: 15;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px 20px 50px 50px;
+
+}
+.etiquetteCommentaire1{
+    width: 90vw;
+    height: 90vh;
+    position: relative;
+    top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    z-index: 15;
+    background-image:url(../../images/tablego.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+     border-radius: 20px 20px 50px 50px;
+}
