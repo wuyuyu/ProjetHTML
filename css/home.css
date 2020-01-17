@@ -220,7 +220,8 @@ header img {
     .boutonArticle {
         width: 15vw;
         font-size: 8px;
-        line-height: 19px;
+        line-height: 25px;
         font-weight: normal;
+        height: 2vh;
     }
 }
