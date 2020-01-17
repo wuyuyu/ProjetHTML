@@ -1,4 +1,4 @@
-
+/*this body contener*/
 body {
     margin: 0;
     height: 800px;
@@ -88,16 +88,19 @@ header img{
     height: 57vh;
     width: 100%;
 }
+/* this style build  */
 .titreVignette {
     color: #e57373;
     height: 90vw;
 }
+/* this style build  */
 .vinetteInfo li {
     color: #ccffcc;
     list-style: none;
     margin-left: -150px;
     margin-right: 0px;
 }
+/* this style build of block schroll text and border */
 .Info{
     width: 88vw;
     height: 5vh;
@@ -112,7 +115,7 @@ header img{
     text-align: center;
     z-index: 15;
     }
-
+/* this style build of block schroll text and border */
 .recette {
  width: 95vw;
     height: 100vh;
@@ -129,6 +132,7 @@ header img{
     overflow: hidden;
     background-color: #e6ffe6;
 }
+/* this style build of block schroll text and border */
 .etiquetteTitre{
     width: 50vw;
     height: 65vh;
@@ -146,6 +150,7 @@ header img{
     z-index: 15;
 
 }
+/* this style build of block schroll text and border  juste change picture */
 .etiquetteGranola{
     width: 50vw;
     height: 65vh;
@@ -163,6 +168,7 @@ header img{
     z-index: 15;
 
 }
+/* this style build of block schroll text and border  juste change picture */
 .etiquettepancakes{
     width: 50vw;
     height: 65vh;
@@ -180,10 +186,11 @@ header img{
     z-index: 15;
 
 }
+/* this funtion schroll  */
 .scrolltest {
     overflow: scroll ;
 }
-
+/* this style build of block schroll text and border  juste change picture */
 .etiquetteCommentaire{
     color: rgba(0,0,0,1);
     width: 26vw;
@@ -197,6 +204,7 @@ header img{
     background-color: rgba(255,255,255,0.7);
     border-radius: 20px 20px 50px 50px;
 }
+/* this style build of block schroll text and border  juste change picture */
 .etiquetteCommentaire3{
         color: rgba(0,0,0,1);
     width: 30vw;
@@ -210,13 +218,16 @@ header img{
     background-color: rgba(255,255,255,0.7);
     border-radius: 20px 20px 50px 50px;
 }
+/* this style flex ligne */
 .flex-container-etiquette {
   display: flex;
 }
+/* this style flex colum */
 .flex-container-etiquette-colum {
   display: flex;
   flex-direction: column;
 }
+/* this style build of block schroll text and border  juste change picture */
 .etiquetteCommentaire2{
     color: rgba(0,0,0,1);
     width: 88vw;
@@ -231,6 +242,7 @@ header img{
     border-radius: 20px 20px 50px 50px;
 
 }
+/* this style build of block schroll text and border  juste change picture */
 .etiquetteCommentaire1{
     width: 90vw;
     height: 90vh;
